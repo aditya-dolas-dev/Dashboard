@@ -1,7 +1,13 @@
 
+import Dashboard from "./components/Dashboard"
 
-function App() {
- 
+
+const App = () => {
+  return (
+    <div>
+      <Dashboard/>
+    </div>
+  )
 }
 
 export default App
